@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F1FF;
+}
+main .container{
+    background-color: #fff;
+    margin: 50px auto;
+}
+main a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+    margin-left: 20px;
+}
+.navbar-brand img{
+    width: 50px;
+}
+nav ul li img{
+    width:50px;
+}
+#main img{
+    width:50px;
+}
+.card{
+    border: none;
+}
+#Lates .container{
+    background: #fff;
+}
+#Lates .card{
+    box-shadow: 3px 3px 15px;
+}
+#Lates .card-footer img{
+    width: 15px;
+}
+.card-footer{
+    border: none;
+    background: #fff;
+}
+#Lates .card{
+    padding: 15px;
+    min-height:400px;
+}

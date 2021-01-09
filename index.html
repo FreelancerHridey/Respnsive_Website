@@ -1,11 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive website</title>
+    <!-- boostrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>hello</h1>
+    <!-- start header section  -->
+    <header class="bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/Icon/Group 5.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <img class="img-fluid" src="images/Image/Ellipse.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="main">
+            <div class="container">
+                <div class="row py-4">
+                    <h1 class=" text-primary">Top Player</h1>
+                </div>
+                <div class="row">
+                    <div class="col-12 py-2 d-flex align-items-center col-md-4 ">
+                        <img src="images/Image/Ellipse-1.png" alt="">
+                        <a href="">John Smith </a>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center col-md-4">
+                        <img src="images/Image/Ellipse-2.png" alt="">
+                        <a href="">Pro Rasel
+                        </a>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center col-md-4">
+                        <img src="images/Image/Ellipse-3.png" alt="">
+                        <a href="">Abu Sufian
+                        </a>
+                    </div>
+                </div>
+                <div class="row  py-4">
+                    <div class="col-12 py-2 d-flex align-items-center col-md-4 ">
+                        <img src="images/Image/Ellipse-4.png" alt="">
+                        <a href="">John Smith </a>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center col-md-4">
+                        <img src="images/Image/Ellipse-5.png" alt="">
+                        <a href="">Pro Rasel
+                        </a>
+                    </div>
+                    <div class="col-12 py-2 d-flex align-items-center col-md-4">
+                        <img src="images/Image/Ellipse.png" alt="">
+                        <a href="">Abu Sufian
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <section id="middle">
+                    <div class="container">
+                        <div class="row py-4">
+                            <h1 class="text-primary">Top Blog </h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-center justify-content-center col-md-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img class="img-fluid  mt-4 w-100" src="images/Image/Mask Group.png"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-md-8 my-auto">
+                                            <div class="card-body">
+                                                <h5 class="card-title ">UI cheat sheet: list vs grids</h5>
+                                                <p class="card-text"><small class="text-muted">by</small> <span
+                                                        class="text-primary">Tess Gadd</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex align-items-center justify-content-center col-md-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img class="img-fluid  mt-4 w-100" src="images/Image/Mask Group-1.png"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-md-8 my-auto">
+                                            <div class="card-body">
+                                                <h5 class="card-title">UI cheat sheet: list vs grids</h5>
+                                                <p class="card-text"><small class="text-muted">by</small><span
+                                                        class="text-primary"> Tess Gadd</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-center justify-content-center col-md-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img class="img-fluid  mt-4 w-100" src="images/Image/Mask Group-5.png" alt="...">
+                                        </div>
+                                        <div class="col-md-8 my-auto">
+                                            <div class="card-body">
+                                                <h5 class="card-title ">UI cheat sheet: list vs grids</h5>
+                                                <p class="card-text"><small class="text-muted">by</small> <span
+                                                        class="text-primary">Tess Gadd</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex align-items-center justify-content-center col-md-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img class="img-fluid  mt-4 w-100" src="images/Image/Mask Group-2.png"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-md-8 my-auto">
+                                            <div class="card-body">
+                                                <h5 class="card-title">UI cheat sheet: list vs grids</h5>
+                                                <p class="card-text"><small class="text-muted">by</small><span
+                                                        class="text-primary"> Tess Gadd</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <section id="Lates">
+        <div class="container">
+            <div class="row py-4">
+                <h1 class="text-primary">Lates Course</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/Image/Group 2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">React - The Complete</h5>
+                            <h5>Guide 2020</h5>
+                            <p class="card-text">Reed Krakoff</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-7 d-flex align-items-center">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <small class="card-text ms-3">4.5</small>
+                                </div>
+                                <div class="col-5 ">
+                                    <div class=" d-flex align-items-center">
+                                        <img src="images/Icon/ic_access_time_24px 1.png" alt="">
+                                        <p class="mt-3 ms-3"> 01:30 hr</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/Image/Mask Group-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">React - The Complete</h5>
+                            <h5>Guide 2020</h5>
+                            <p class="card-text">Reed Krakoff</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-7 d-flex align-items-center">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <small class="card-text ms-3">4.5</small>
+                                </div>
+                                <div class="col-5 ">
+                                    <div class=" d-flex align-items-center">
+                                        <img src="images/Icon/ic_access_time_24px 1.png" alt="">
+                                        <p class="mt-3 ms-3"> 01:30 hr</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/Image/Mask Group-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">React - The Complete</h5>
+                            <h5>Guide 2020</h5>
+                            <p class="card-text">Reed Krakoff</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-7 d-flex align-items-center">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <img src="images/Icon/Path_501_1_.png" class="img-fluid" alt="">
+                                    <small class="card-text ms-3">4.5</small>
+                                </div>
+                                <div class="col-5 ">
+                                    <div class=" d-flex align-items-center">
+                                        <img src="images/Icon/ic_access_time_24px 1.png" alt="">
+                                        <p class="mt-3 ms-3"> 01:30 hr</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+        <footer class="mt-5">
+            <p class="text-light bg-secondary py-3 text-center">Freelancer Hridey &copy; 2021</p>
+        </footer>
+    <!-- boostrap script link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
